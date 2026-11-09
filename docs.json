@@ -1,0 +1,49 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "OfficeBuddy",
+  "theme": "willow",
+  "colors": {
+    "primary": "#0071e3",
+    "light": "#4da3ff",
+    "dark": "#005bb8"
+  },
+  "favicon": "/images/favicon.svg",
+  "navigation": {
+    "languages": [
+      {
+        "language": "zh",
+        "groups": [
+          {
+            "group": "开始使用",
+            "pages": [
+              "index",
+              "getting-started/installation",
+              "getting-started/quickstart"
+            ]
+          },
+          {
+            "group": "产品功能",
+            "pages": [
+              "product/agent-center",
+              "product/design",
+              "product/enterprise-experts",
+              "product/connectors"
+            ]
+          },
+          {
+            "group": "帮助",
+            "pages": [
+              "faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/your-org/officebuddy",
+      "x": "https://x.com/your-org"
+    }
+  }
+}
